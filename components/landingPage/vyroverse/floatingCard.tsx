@@ -1,9 +1,13 @@
-import { motion } from "framer-motion";
+import { motion, MotionValue } from "framer-motion";
 
 import { BsXbox } from "react-icons/bs";
 import Image from "next/image";
 
-export function FloatingCard({ translateY }: any) {
+export function FloatingCard({
+  translateY,
+}: {
+  translateY: MotionValue<string>;
+}) {
   return (
     <div className="absolute -top-40 w-full z-30">
       <div className="flex items-center justify-center">
