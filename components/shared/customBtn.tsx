@@ -1,3 +1,5 @@
+"use client";
+
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 export function CustomBtn({ lable, color }: { lable: string; color: string }) {

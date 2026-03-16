@@ -1,3 +1,5 @@
+"use client";
+
 import { CustomBtn } from "@/components/shared/customBtn";
 import { statsCards } from "./data";
 

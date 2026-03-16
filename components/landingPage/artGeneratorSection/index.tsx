@@ -1,3 +1,5 @@
+"use client";
+
 import { GiCircleClaws } from "react-icons/gi";
 import Image from "next/image";
 import Ai_image from "@/public/Ai_image.webp";

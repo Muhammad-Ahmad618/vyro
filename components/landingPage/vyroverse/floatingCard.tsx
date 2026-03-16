@@ -1,5 +1,4 @@
 import { motion, MotionValue } from "framer-motion";
-
 import { BsXbox } from "react-icons/bs";
 import Image from "next/image";
 
