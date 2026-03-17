@@ -1,6 +1,6 @@
 "use client";
 
-import { ProjectCard } from "../projectCard";
+import { ProjectCard } from "./projectCard";
 import { animate } from "animejs";
 import { useRef, useEffect } from "react";
 
@@ -19,7 +19,7 @@ export function HeroSection() {
     }
   }, []);
   return (
-    <div className="relative h-screen overflow-hidden bg-linear-to-b from-black via-gray-950 to-blue-900 text-center px-4 rounded-b-[50px] flex items-center pb-24 z-10">
+    <div className="relative h-[calc(100vh-81.6px)] overflow-hidden bg-linear-to-b from-black via-gray-950 to-blue-900 text-center px-4 rounded-b-[50px] flex items-center pb-24 z-10">
       <div className="text-white max-w-250 w-full mx-auto space-y-8">
         <div ref={HeroHeadingRef}>
           <h1 className="text-7xl">
